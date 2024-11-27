@@ -1,0 +1,251 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+section.topo-do-site{
+    padding: 40px 4%;
+}
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color:  #61c561;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: rgb(168, 255, 142);
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #04d40b;
+}
+nav{
+    padding-right: 10%;
+}
+img{
+    width: 20%;
+    min-width: 100px;
+}
+.cards{
+    border: 2px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #296329;
+    min-width: 300px;
+    border-radius: 15px;
+
+}
+.cards:hover{
+    transform: scale(1.05);
+
+}
+.cont{
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content:space-around ;
+    flex-direction: row;
+    display: flex;    
+}
+.nome{
+    color: rgb(255, 255, 255);
+    padding: 10%;
+}
+.nome2{
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color: #ffffff;
+    font-size: 18px;
+}
+h1{
+    color: #44a039;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+.button {
+    padding-left: 90px;
+  }
+button {
+    margin-left: 0.5em;
+  }
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(185, 233, 158)
+  }
+form {
+    margin: 0 auto;
+    width: 350px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #296329;
+    min-width: 50px;
+    margin-top: 50px;
+  }
+form div + div {
+    margin-top: 1em;
+  }
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    color:  #ffffff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 220px;
+    background-color: #296329;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 40px 100px 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.medias-sociais{
+    margin-bottom: 20px;
+}
+
+.medias-sociais i{
+    font-size: 28px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(168, 255, 142);
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.link_footer {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.line {
+    background-color: rgb(168, 255, 142);
+    width: 20px;
+    height: 6px;
+    margin-top: 3px;
+    border-radius: 40px;
+    position: relative;
+    animation: underline-animation 2s linear infinite;
+    
+}
+h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    
+}
+.imgprojetos{
+    width: 70%;
+    padding-bottom: 15px;
+    
+}
+
+#virtual{
+    padding-top: 10%;
+}
+@keyframes underline-animation {
+    0% {
+        left: -121px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        left: 121px;
+        opacity: 0;
+    }
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.topo-do-site .img-topo-site img{
+    width: 80%;
+    min-width: 150px;
+    border-radius: 15px;
+}
